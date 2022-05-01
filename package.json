@@ -1,0 +1,20 @@
+{
+  "name": "apollo-playground",
+  "version": "1.0.0",
+  "description": "Apollo playground.",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --workspace=apollo-client",
+    "server": "npm start --workspace=apollo-server",
+    "test": "npm run test --workspaces"
+  },
+  "keywords": [
+    "apollo"
+  ],
+  "author": "Gustavo Muñoz <timbergus@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "apollo-client",
+    "apollo-server"
+  ]
+}
